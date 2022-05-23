@@ -1,5 +1,5 @@
 {
-  "name": "@playwind/com.google.firebase.storage",
+  "name": "com.google.firebase.storage",
   "version": "9.0.0",
   "displayName": "Cloud Storage for Firebase",
   "keywords": [
@@ -10,23 +10,14 @@
     "vh-name:FirebaseStorage",
     "vh-name:Cloud Storage for Firebase"
   ],
-  "author": "Google LLC (https://firebase.google.com/docs/storage/unity/start)",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/storage/unity/start"
+  },
   "description": "Store and serve game content with ease.\n\nWith Cloud Storage, you can easily store and serve large binary objects, such as screenshots, replays, or game assets, and effortlessly grow from prototype to production.\n\nThrough an integration with Firebase Authentication, you can use our declarative security model to control access and keep data safe.",
   "unity": "2017.1",
   "dependencies": {
     "com.google.firebase.auth": "9.0.0"
   },
-  "license": "Apache-2.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinatcg/GoogleFirebaseStorage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/xinatcg/GoogleFirebaseStorage/issues"
-  },
-  "homepage": "https://github.com/xinatcg/GoogleFirebaseStorage#readme"
+  "license": "Apache-2.0"
 }
